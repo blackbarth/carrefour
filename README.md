@@ -42,4 +42,4 @@ Lançamentos de Fluxo de Caixa
 
   
 
-Essa descrição fornece informações sobre os pré-requisitos necessários e as etapas para executar o projeto localmente. Sinta-se à vontade para adaptá-la conforme necessário para o seu projeto específico.
+Essa descrição fornece informações sobre os pré-requisitos necessários e as etapas para executar o projeto localmente. Sinta-se à vontade para adaptá-la conforme necessário.
