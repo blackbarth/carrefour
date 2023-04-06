@@ -22,7 +22,7 @@ Lançamentos de Fluxo de Caixa
 1. ```
    {
        "ConnectionStrings": {
-           "DefaultConnection": "YourConnectionStringHere"
+           "DefaultConnection": "suaconnectionstringaqui"
        },
        // Outras configurações
    }
