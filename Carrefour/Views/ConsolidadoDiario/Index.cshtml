@@ -1,0 +1,25 @@
+﻿@using Carrefour.Domain.Entities;
+@model IEnumerable<ConsolidadoDiario>
+@{
+    ViewBag.Title = "Saldo Diário Consolidado";
+}
+
+<h2>Saldo Diário Consolidado</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Data</th>
+            <th>Saldo</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var consolidado in Model)
+        {
+            <tr>
+                <td>@consolidado.Data.ToString("dd/MM/yyyy")</td>
+                <td>@consolidado.Total.ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>
